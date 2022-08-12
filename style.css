@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body {
+  background: linear-gradient(
+      to right,
+      rgba(23, 23, 32, 0.6),
+      rgba(14, 13, 15, 0.6)
+    ),
+    url(assets/image.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+  /* position: fixed; */
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
+.navbar {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.navbar .list {
+  position: absolute;
+  left: 550px;
+  top: 30px;
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar .list .list-item {
+  color: #f4be2c;
+  font-size: 20px;
+}
+
+.button-small {
+  position: absolute;
+  background-color: #fff;
+  right: 150px;
+  top: 30px;
+  width: 110px;
+  height: 35px;
+  text-align: center;
+  background-color: #eb4d4b;
+  border: none;
+  color: #fff;
+}
+.hero {
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  margin-top: 80px;
+}
+
+h1 {
+  margin-top: 10px;
+  width: 90vw;
+  height: 20vh;
+  color: #f4be2c;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 130px;
+}
+
+.button-large {
+  position: relative;
+  top: 350px;
+  left: 600px;
+  width: 230px;
+  height: 40px;
+  background-color: #eb4d4b;
+
+  padding: 30px, 30px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+.bottom {
+  margin-top: 5px;
+  width: 100vw;
+  height: 45vh;
+  position: relative;
+  margin-bottom: 0px;
+  /* bottom: 10px;
+  right: 30px;
+
+*/
+}
+
+.bottom img {
+  position: absolute;
+
+  width: 80px;
+  right: 80px;
+  bottom: -80px;
+  font-weight: bold;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
